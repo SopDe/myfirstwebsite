@@ -1,0 +1,83 @@
+/* style.css */
+body{
+	color: lightgrey;
+	font-size: 15px;
+	font-family: 'KoHo', sans-serif;
+	margin: 0px;
+	background-color: #FF91BA;
+}
+h1{
+	font-family: 'KoHo', sans-serif;
+	color: #333745;
+	font-weight: bolder;
+	font-size: 30px;
+}
+h2 {
+	font-family: 'KoHo', sans-serif;
+	color: #1A238D;
+	font-weight: bold;
+	font-size: 30px;
+}
+a {
+	color: #1A238D;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: none;
+	color: red;
+	font-weight: bolder;
+
+
+}
+
+
+#banner{
+	text-align: center;
+	background-image: url("https://images.unsplash.com/photo-1414500923875-1704944d8df7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80");
+	background-size: cover;
+	padding: 120px;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+#banner p {
+	color: white;
+	opacity: 0.8;
+	font-size: 30px;
+	font-weight: lighter;
+}
+#footer{
+	padding: 80px;
+	background: #1A238D;
+	font-size: 25px;
+	text-align: center;
+
+}
+#footer a {
+	color: white !important;
+}#footer a:hover {
+	color: #FF91BA !important;
+}
+
+
+.section{
+	padding: 50px;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	background: #FF91BA;
+}
+
+#myface {
+	border-radius: 100%;
+	padding: 10px;
+}
+#typeform {
+	background: #FF91BA;
+	color: #FF91BA;
+}
